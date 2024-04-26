@@ -1,0 +1,77 @@
+.grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.grid-portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.grid-paysages img,
+.grid-portraits img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.photo-paysage {
+    position: relative;
+
+}
+
+.photo-portrait {
+    position: relative;
+}
+
+.photo-hover {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.7;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.photo-paysage:hover .photo-hover {
+    display: flex;
+}
+
+.photo-portrait:hover .photo-hover {
+    display: flex;
+}
+
+.bloc-photos {
+    background-color: #F9F8FF;
+}
+
+.bloc-photos h2 {
+    color: #242424;
+    margin-bottom: 80px;
+
+}
+
+@media screen and (max-width: 996px) {
+    .grid-paysages {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-portraits {
+        grid-template-columns: 1fr;
+
+    }
+
+}

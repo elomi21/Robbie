@@ -1,0 +1,47 @@
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #A5B4FC;
+}
+
+.info-tarifs {
+    margin:0px 200px;
+}
+
+.titre-studio {
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 80px;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 100%;
+}
+
+
+th,
+td {
+    margin: 0;
+    border: 2px solid #776db0;
+    color: white;
+    text-align: center;
+}
+
+td {
+    padding: 80px;
+
+}
+
+th {
+    padding: 15px;
+}
+
+@media screen and (max-width: 996px) {
+
+    h2,
+    table {
+        display: none;
+    }
+
+
+}

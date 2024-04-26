@@ -1,0 +1,101 @@
+em {
+    color: #A5B4FC;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #A5B4FC;
+    font-size: 3.5em;
+}
+
+p,
+li {
+    font-size: 1.1em;
+    font-family: 'Manrope', sans-serif;
+    color: #F9F8FF;
+
+}
+
+body {
+    margin:0;
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+    background-color: #1F2039;
+}
+
+h2 {
+    color: #F9F8FF;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+header, 
+footer {
+    background-color: white;
+    padding:20px 50px;
+
+}
+
+.lien-logos:hover {
+    opacity: 0.5;
+}
+
+section {
+    padding: 80px;
+}
+
+.cta {
+    background: linear-gradient(#8E86B5, #ACAEED);
+    border-radius: 50px;
+    color: white;
+    padding: 20px 30px;
+    display: inline-block;
+}
+
+.cta:hover {
+    background: linear-gradient(#696484, #8788BA);
+}
+
+header nav, footer nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .right, nav .menu {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 996px) {
+    h1{
+    font-size: 2em;
+
+    }
+    section{
+        padding:80px 20px;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav .right, nav .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .a-propos{
+        display: none;
+    }
+}

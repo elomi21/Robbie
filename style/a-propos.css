@@ -1,0 +1,59 @@
+
+.rectangle {
+    display: inline-block;
+    position:absolute;
+    background-color:#2C2E51;
+    width: 615px;
+    height: 413px;
+    right: 125px;
+    top: 350px;
+    z-index:-1;
+}
+.container-photos-10-robbie{
+    margin: 37px 118px 80px;
+    
+}
+.photos-10-robbie{
+    display: grid;
+    grid-template-columns: 1FR 1FR 1FR 1FR 1FR;
+    grid-template-rows: auto;
+    gap: 20px;
+    
+}
+.container-photos .photos-10-robbie {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.photos-10-robbie div img{
+    width: 100%;
+}
+
+.carre-contenu {
+    border-bottom: 1px #A5B4FC solid;
+    border-right: 1px #A5B4FC solid;
+    padding: 50px;
+    width:50%;
+    margin-bottom: 80px;
+    margin:auto   
+}
+
+h1,h2, .text-center{
+    text-align: center;
+    margin-top: auto;
+}
+
+.text-center{
+    margin-top: 80px;
+}
+
+.main {
+    margin: auto;
+}
+
+.carre-contenu h2, .carre-contenu ul{
+    margin-top: 50px;
+}
+
+
+
+

@@ -1,0 +1,126 @@
+.div-gauche h1{
+    margin:0px 0px 15px;
+}
+.div-gauche p{
+    margin:0px 0px 30px
+}
+.div-droite {
+    width: 100%;
+}
+.container-intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: auto;
+    max-width:1000px;
+}
+
+.container-projet {
+    background-color: white;
+    padding: 80px;
+}
+
+.container-projet h2 {
+    text-align: center;
+    margin-bottom: 80px;
+    color: #242424
+}
+
+.container-projet .container-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:15px;
+}
+
+.container-photos div img {
+    width: 100%;
+}
+
+.contacter {
+    text-align:center;
+    color: white;
+
+}
+
+form {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.form-name-mail{
+    text-align:left;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.form-name-mail div {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.form-name-mail div input {    
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 15px;
+    padding:15px
+}
+
+.form-message{
+    text-align: left;
+    padding: 15px;
+    display: flex;
+    flex-direction:column;
+    margin-bottom:15px;
+    gap: 15px;
+}
+
+.form-message textarea{
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+}
+
+input[type='submit']{
+    width: 200px;
+    text-transform: uppercase;
+}
+
+h2{
+    color:#A5B4FC;
+}
+
+
+
+@media screen and (max-width: 996px) {
+    .container-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+
+}
+    .div-gauche {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        order: 2;
+        text-align: center;
+
+}
+    .div-droite img {
+        width: 100%;
+        order: 1;
+    
+}
+    .form-name-mail{
+    flex-direction: column;
+
+}
+.container-projet .container-photos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:15px;
+}
+}
